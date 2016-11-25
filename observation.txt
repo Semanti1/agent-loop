@@ -1,0 +1,4 @@
+
+
+
+obs(blocked(1,3),true,4).

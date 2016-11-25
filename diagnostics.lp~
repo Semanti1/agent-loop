@@ -1,0 +1,12 @@
+{occurs(A, S) : action(exogenous, A)} :- step(S), S >= 0 , S < curr_step.
+expl(A,I) :- action(exogenous, A) ,occurs(A, I),not hpd(A, I), step(I).
+%, I< curr_step.
+%-holds(expl(A,S),S+1):- holds(expl(A, S),S), action(exogenous, A),not hpd(A, S), step(S).          
+%not hpd(A, I).
+#show expl/2.
+%occurs(A, I),
+
+rank(R) :- R=#count { A,I: occurs(A,I),action(exogenous, A)}.
+#minimize { R, rank: rank(R)}.
+
+

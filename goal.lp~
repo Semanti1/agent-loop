@@ -1,0 +1,3 @@
+%Define goal and that failure is not an option
+goal(S) :- holds(at(pioneer, 0,,2), S), step(S).
+

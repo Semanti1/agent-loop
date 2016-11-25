@@ -1,0 +1,14 @@
+hpd(moveForward(pioneer),0).
+hpd(moveForward(pioneer),1).
+hpd(moveForward(pioneer),2).
+hpd(rotateRight(pioneer),3).
+hpd(dropped(1,3),3).
+hpd(rotateRight(pioneer),4).
+hpd(moveForward(pioneer),5).
+hpd(rotateLeft(pioneer),6).
+hpd(moveForward(pioneer),7).
+hpd(moveForward(pioneer),8).
+hpd(moveForward(pioneer),9).
+hpd(rotateLeft(pioneer),10).
+hpd(moveForward(pioneer),11).
+hpd(rotateRight(pioneer),12).
